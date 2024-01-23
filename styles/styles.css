@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color: darkslategray;
     padding: 10px;
@@ -11,6 +16,7 @@ h1 {
     color:darkslategray;
 }
 main img{
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid darkslategray;
@@ -33,12 +39,30 @@ aside{
     text-align:center;
 }
 aside img{
-    width: 200px;
+    width: 250px;
     height: auto;
+    margin: 1rem
 }
 p{ padding: 0;}
 footer{
     margin-top: 15px;
     border-top: 1px solid darkslategray;
     text-align: center;
+}
+/* Class Selecotrs*/
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20em;
+    text-align: center;
+}
+aside h2 {
+    position: absolute;
+    top: 520px;
+    left: 100px;
 }
