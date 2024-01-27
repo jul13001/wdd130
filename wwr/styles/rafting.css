@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Mulish&display=swap');
+
+:root {
+    --primary-color: #333745;
+    --secondary-color: #64B6AC;
+    --accent1-color: #E4572E;
+    --accent2-color: #FFBF46;
+
+    --heading-font: 'Kalam', serif;
+    --paragraph-font: 'Mulish', serif;
+
+    --nav-background-color: #EDE7DC;
+    --nav-link-color: #0D1821;
+    --nav-hover-link-color: #C0FDFB;
+    --nav-hover-background-color: #E4572E;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero article img {
+    max-width: 200px;
+    float: right;
+}
+
+.hero h1 {
+    position: absolute;
+    bottom: 225px;
+    left: 225px;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: rgba(207, 239, 240, 0.5);
+    color: #333745; 
+}
+
+.hero article {
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    float: right;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: rgba(173, 217, 217, 0.7);
+    color: #333745;
+    font-weight: 600; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
