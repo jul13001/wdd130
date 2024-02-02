@@ -68,7 +68,7 @@ aside h2 {
     left: 85px;
 }
 
-header, footer, .grid {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -95,6 +95,8 @@ nav a {
 }
 
 main {
+    display: grid;
+    align-items: center;
     grid-column: 2/3;
     margin: 1rem;
 }
