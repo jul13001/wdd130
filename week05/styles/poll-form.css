@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mulish;
+    font-size: 1.2em;
+    color: #08264b;
+    background: #fff
+}
+
+header {
+    margin: 2rem;
+    width: 650px;
+    text-align: center;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgb(211, 213, 226);
+    display: grid;
+}
