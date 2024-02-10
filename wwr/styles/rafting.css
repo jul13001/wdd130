@@ -185,15 +185,28 @@ iframe {
     justify-content: space-between;
 }
 
-#talkstaff { 
-    text-align: center;
-    
+#talkstaff1 { 
+    text-align: center;  
 }
 
-#staff {
+#talkstaff2 { 
+    text-align: center;  
+}
+#talkstaff3 { 
+    text-align: center;  
+}
+
+
+#staff1 {
     max-width: 250px;
 }
 
+#staff2 {
+    max-width: 250px;
+}
+#staff3 {
+    max-width: 250px;
+}
 #contact24 {
     text-align: center;
 }
